@@ -71,6 +71,7 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'List XML Forms',
     'roles' => array(
       'administrator' => 'administrator',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -81,6 +82,7 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_ip_embargo',
   );
@@ -121,6 +123,7 @@ function ldl_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -130,7 +133,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'access content overview',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -217,7 +219,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'access trello',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'trello',
   );
@@ -322,7 +323,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'administer delta',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'delta_ui',
   );
@@ -332,7 +332,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'administer delta blocks',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'delta_blocks',
   );
@@ -396,7 +395,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'administer google analytics reports api',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'google_analytics_reports_api',
   );
@@ -496,7 +494,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'administer nodes',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -506,7 +503,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'administer pathauto',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'pathauto',
   );
@@ -615,7 +611,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'administer url aliases',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'path',
   );
@@ -670,7 +665,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'bypass inactive object state',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_simple_workflow',
   );
@@ -742,7 +736,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'create article content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -762,7 +755,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'create image annotations',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_image_annotation',
   );
@@ -772,7 +764,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'create landing_page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -782,7 +773,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'create page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -803,7 +793,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'create url aliases',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'path',
   );
@@ -831,7 +820,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'delete any article content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -841,7 +829,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'delete any landing_page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -851,7 +838,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'delete any page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -871,7 +857,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'delete own article content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -881,7 +866,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'delete own landing_page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -891,7 +875,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'delete own page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -941,7 +924,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'edit any article content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -951,7 +933,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'edit any landing_page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -961,7 +942,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'edit any page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -982,7 +962,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'edit own article content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -1002,7 +981,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'edit own landing_page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -1012,7 +990,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'edit own page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -1116,7 +1093,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'manage inactive objects',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_simple_workflow',
   );
@@ -1187,7 +1163,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'notify of path changes',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'pathauto',
   );
@@ -1280,6 +1255,7 @@ function ldl_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_solr',
   );
@@ -1400,7 +1376,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'use text format islandora_solr_metadata_filtered_html',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'filter',
   );
