@@ -16,6 +16,7 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
+      'intern' => 'intern',
     ),
     'module' => 'islandora_collection_toggle_publish',
   );
@@ -1102,6 +1103,7 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
+      'intern' => 'intern',
     ),
     'module' => 'islandora',
   );
