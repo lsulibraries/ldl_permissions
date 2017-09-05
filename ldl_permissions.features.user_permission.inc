@@ -167,16 +167,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'google_analytics_reports',
   );
 
-  // Exported permission: 'access overlay'.
-  $permissions['access overlay'] = array(
-    'name' => 'access overlay',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
-    ),
-    'module' => 'overlay',
-  );
-
   // Exported permission: 'access rules debug'.
   $permissions['access rules debug'] = array(
     'name' => 'access rules debug',
@@ -1366,7 +1356,6 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'use text format full_html',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'filter',
   );
