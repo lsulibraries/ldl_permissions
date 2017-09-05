@@ -1064,7 +1064,6 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
     ),
     'module' => 'islandora',
   );
@@ -1093,7 +1092,6 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
     ),
     'module' => 'islandora_ip_embargo',
   );
@@ -1104,7 +1102,6 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
     ),
     'module' => 'islandora',
   );
@@ -1143,7 +1140,6 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
     ),
     'module' => 'islandora_namespace_homepage',
   );
@@ -1182,7 +1178,6 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
     ),
     'module' => 'islandora',
   );
@@ -1202,7 +1197,6 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
     ),
     'module' => 'islandora',
   );
@@ -1223,7 +1217,6 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
     ),
     'module' => 'islandora',
   );
@@ -1377,6 +1370,7 @@ function ldl_permissions_user_default_permissions() {
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
       'collection admin' => 'collection admin',
+      'intern' => 'intern',
     ),
     'module' => 'islandora',
   );
