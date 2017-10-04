@@ -656,6 +656,7 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'bypass inactive object state',
     'roles' => array(
       'administrator' => 'administrator',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_simple_workflow',
   );
