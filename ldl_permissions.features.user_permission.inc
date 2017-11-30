@@ -16,7 +16,7 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
+      'publish (add-on)' => 'publish (add-on)',
     ),
     'module' => 'islandora_collection_toggle_publish',
   );
@@ -237,6 +237,7 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'add fedora datastreams',
     'roles' => array(
       'administrator' => 'administrator',
+      'cataloger' => 'cataloger',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
     ),
@@ -285,6 +286,7 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'administer compound relationships',
     'roles' => array(
       'administrator' => 'administrator',
+      'cataloger' => 'cataloger',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
     ),
@@ -657,6 +659,7 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
+      'publish (add-on)' => 'publish (add-on)',
     ),
     'module' => 'islandora_simple_workflow',
   );
@@ -719,6 +722,7 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
+      'publish (add-on)' => 'publish (add-on)',
     ),
     'module' => 'islandora_ip_embargo',
   );
@@ -774,6 +778,7 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'create support ticket',
     'roles' => array(
       'administrator' => 'administrator',
+      'cataloger' => 'cataloger',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
     ),
@@ -840,6 +845,7 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
+      'publish (add-on)' => 'publish (add-on)',
     ),
     'module' => 'islandora',
   );
@@ -943,6 +949,7 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'edit fedora metadata',
     'roles' => array(
       'administrator' => 'administrator',
+      'cataloger' => 'cataloger',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
     ),
@@ -1034,8 +1041,8 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'ingest fedora objects',
     'roles' => array(
       'administrator' => 'administrator',
+      'cataloger' => 'cataloger',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
     ),
     'module' => 'islandora',
   );
@@ -1084,6 +1091,7 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'manage inactive objects',
     'roles' => array(
       'administrator' => 'administrator',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_simple_workflow',
   );
@@ -1093,7 +1101,9 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'manage islandora ip embargoes',
     'roles' => array(
       'administrator' => 'administrator',
+      'cataloger' => 'cataloger',
       'collection admin' => 'collection admin',
+      'intern' => 'intern',
     ),
     'module' => 'islandora_ip_embargo',
   );
@@ -1104,7 +1114,7 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
+      'publish (add-on)' => 'publish (add-on)',
     ),
     'module' => 'islandora',
   );
@@ -1181,6 +1191,7 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
+      'publish (add-on)' => 'publish (add-on)',
     ),
     'module' => 'islandora',
   );
@@ -1199,6 +1210,7 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'replace a datastream with new content, preserving version history',
     'roles' => array(
       'administrator' => 'administrator',
+      'cataloger' => 'cataloger',
       'collection admin' => 'collection admin',
     ),
     'module' => 'islandora',
@@ -1219,6 +1231,7 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'revert to old datastream',
     'roles' => array(
       'administrator' => 'administrator',
+      'cataloger' => 'cataloger',
       'collection admin' => 'collection admin',
     ),
     'module' => 'islandora',
@@ -1331,6 +1344,7 @@ function ldl_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
+      'find and replace (add-on)' => 'find and replace (add-on)',
     ),
     'module' => 'islandora_find_replace',
   );
@@ -1394,6 +1408,7 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'view old datastream versions',
     'roles' => array(
       'administrator' => 'administrator',
+      'cataloger' => 'cataloger',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
     ),
