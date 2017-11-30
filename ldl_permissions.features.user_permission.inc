@@ -228,6 +228,8 @@ function ldl_permissions_user_default_permissions() {
     'name' => 'add JS snippets for google analytics',
     'roles' => array(
       'administrator' => 'administrator',
+      'collection admin' => 'collection admin',
+      'intern' => 'intern',
     ),
     'module' => 'googleanalytics',
   );
@@ -274,7 +276,6 @@ function ldl_permissions_user_default_permissions() {
   $permissions['administer comments'] = array(
     'name' => 'administer comments',
     'roles' => array(
-      'administrator' => 'administrator',
       'collection admin' => 'collection admin',
     ),
     'module' => 'comment',
