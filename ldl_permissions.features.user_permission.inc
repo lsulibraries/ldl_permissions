@@ -158,16 +158,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'dashboard',
   );
 
-  // Exported permission: 'access google analytics reports'.
-  $permissions['access google analytics reports'] = array(
-    'name' => 'access google analytics reports',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
-    ),
-    'module' => 'google_analytics_reports',
-  );
-
   // Exported permission: 'access rules debug'.
   $permissions['access rules debug'] = array(
     'name' => 'access rules debug',
@@ -221,15 +211,6 @@ function ldl_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'user',
-  );
-
-  // Exported permission: 'add JS snippets for google analytics'.
-  $permissions['add JS snippets for google analytics'] = array(
-    'name' => 'add JS snippets for google analytics',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'googleanalytics',
   );
 
   // Exported permission: 'add fedora datastreams'.
@@ -336,24 +317,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'features',
   );
 
-  // Exported permission: 'administer feeds'.
-  $permissions['administer feeds'] = array(
-    'name' => 'administer feeds',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'feeds',
-  );
-
-  // Exported permission: 'administer feeds_tamper'.
-  $permissions['administer feeds_tamper'] = array(
-    'name' => 'administer feeds_tamper',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'feeds_tamper',
-  );
-
   // Exported permission: 'administer fields'.
   $permissions['administer fields'] = array(
     'name' => 'administer fields',
@@ -370,24 +333,6 @@ function ldl_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'filter',
-  );
-
-  // Exported permission: 'administer google analytics'.
-  $permissions['administer google analytics'] = array(
-    'name' => 'administer google analytics',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'googleanalytics',
-  );
-
-  // Exported permission: 'administer google analytics reports api'.
-  $permissions['administer google analytics reports api'] = array(
-    'name' => 'administer google analytics reports api',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'google_analytics_reports_api',
   );
 
   // Exported permission: 'administer image styles'.
@@ -697,13 +642,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: 'clear landing_pages feeds'.
-  $permissions['clear landing_pages feeds'] = array(
-    'name' => 'clear landing_pages feeds',
-    'roles' => array(),
-    'module' => 'feeds',
-  );
-
   // Exported permission: 'context ajax block access'.
   $permissions['context ajax block access'] = array(
     'name' => 'context ajax block access',
@@ -740,15 +678,6 @@ function ldl_permissions_user_default_permissions() {
       'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_basic_collection',
-  );
-
-  // Exported permission: 'create image annotations'.
-  $permissions['create image annotations'] = array(
-    'name' => 'create image annotations',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'islandora_image_annotation',
   );
 
   // Exported permission: 'create landing_page content'.
@@ -1022,13 +951,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'features',
   );
 
-  // Exported permission: 'import landing_pages feeds'.
-  $permissions['import landing_pages feeds'] = array(
-    'name' => 'import landing_pages feeds',
-    'roles' => array(),
-    'module' => 'feeds',
-  );
-
   // Exported permission: 'ingest fedora objects'.
   $permissions['ingest fedora objects'] = array(
     'name' => 'ingest fedora objects',
@@ -1156,15 +1078,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'pathauto',
   );
 
-  // Exported permission: 'opt-in or out of tracking'.
-  $permissions['opt-in or out of tracking'] = array(
-    'name' => 'opt-in or out of tracking',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'googleanalytics',
-  );
-
   // Exported permission: 'post comments'.
   $permissions['post comments'] = array(
     'name' => 'post comments',
@@ -1274,29 +1187,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'shortcut',
   );
 
-  // Exported permission: 'tamper landing_pages'.
-  $permissions['tamper landing_pages'] = array(
-    'name' => 'tamper landing_pages',
-    'roles' => array(),
-    'module' => 'feeds_tamper',
-  );
-
-  // Exported permission: 'unlock landing_pages feeds'.
-  $permissions['unlock landing_pages feeds'] = array(
-    'name' => 'unlock landing_pages feeds',
-    'roles' => array(),
-    'module' => 'feeds',
-  );
-
-  // Exported permission: 'use PHP for tracking visibility'.
-  $permissions['use PHP for tracking visibility'] = array(
-    'name' => 'use PHP for tracking visibility',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'googleanalytics',
-  );
-
   // Exported permission: 'use PHP to import nodes'.
   $permissions['use PHP to import nodes'] = array(
     'name' => 'use PHP to import nodes',
@@ -1376,17 +1266,6 @@ function ldl_permissions_user_default_permissions() {
       'intern' => 'intern',
     ),
     'module' => 'islandora',
-  );
-
-  // Exported permission: 'view image annotations'.
-  $permissions['view image annotations'] = array(
-    'name' => 'view image annotations',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'islandora_image_annotation',
   );
 
   // Exported permission: 'view old datastream versions'.
