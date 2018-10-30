@@ -106,17 +106,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'views',
   );
 
-  // Exported permission: 'access comments'.
-  $permissions['access comments'] = array(
-    'name' => 'access comments',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'comment',
-  );
-
   // Exported permission: 'access content'.
   $permissions['access content'] = array(
     'name' => 'access content',
@@ -136,16 +125,6 @@ function ldl_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
-  );
-
-  // Exported permission: 'access contextual links'.
-  $permissions['access contextual links'] = array(
-    'name' => 'access contextual links',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
-    ),
-    'module' => 'contextual',
   );
 
   // Exported permission: 'access dashboard'.
@@ -251,16 +230,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'ckeditor',
   );
 
-  // Exported permission: 'administer comments'.
-  $permissions['administer comments'] = array(
-    'name' => 'administer comments',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
-    ),
-    'module' => 'comment',
-  );
-
   // Exported permission: 'administer compound relationships'.
   $permissions['administer compound relationships'] = array(
     'name' => 'administer compound relationships',
@@ -279,24 +248,6 @@ function ldl_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
-  );
-
-  // Exported permission: 'administer contexts'.
-  $permissions['administer contexts'] = array(
-    'name' => 'administer contexts',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'context_ui',
-  );
-
-  // Exported permission: 'administer delta'.
-  $permissions['administer delta'] = array(
-    'name' => 'administer delta',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'delta_ui',
   );
 
   // Exported permission: 'administer delta blocks'.
@@ -407,15 +358,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'menu',
   );
 
-  // Exported permission: 'administer module filter'.
-  $permissions['administer module filter'] = array(
-    'name' => 'administer module filter',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'module_filter',
-  );
-
   // Exported permission: 'administer modules'.
   $permissions['administer modules'] = array(
     'name' => 'administer modules',
@@ -477,15 +419,6 @@ function ldl_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'rules',
-  );
-
-  // Exported permission: 'administer search'.
-  $permissions['administer search'] = array(
-    'name' => 'administer search',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'search',
   );
 
   // Exported permission: 'administer shortcuts'.
@@ -560,15 +493,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: 'administer uuid'.
-  $permissions['administer uuid'] = array(
-    'name' => 'administer uuid',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'uuid',
-  );
-
   // Exported permission: 'administer views'.
   $permissions['administer views'] = array(
     'name' => 'administer views',
@@ -640,15 +564,6 @@ function ldl_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'user',
-  );
-
-  // Exported permission: 'context ajax block access'.
-  $permissions['context ajax block access'] = array(
-    'name' => 'context ajax block access',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'context_ui',
   );
 
   // Exported permission: 'control islandora ip embargoes'.
@@ -819,17 +734,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
-  // Exported permission: 'diff view changes'.
-  $permissions['diff view changes'] = array(
-    'name' => 'diff view changes',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'diff',
-  );
-
   // Exported permission: 'download premis metadata'.
   $permissions['download premis metadata'] = array(
     'name' => 'download premis metadata',
@@ -887,16 +791,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'edit own comments'.
-  $permissions['edit own comments'] = array(
-    'name' => 'edit own comments',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
-    ),
-    'module' => 'comment',
-  );
-
   // Exported permission: 'edit own landing_page content'.
   $permissions['edit own landing_page content'] = array(
     'name' => 'edit own landing_page content',
@@ -922,24 +816,6 @@ function ldl_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'taxonomy',
-  );
-
-  // Exported permission: 'export nodes'.
-  $permissions['export nodes'] = array(
-    'name' => 'export nodes',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node_export',
-  );
-
-  // Exported permission: 'export own nodes'.
-  $permissions['export own nodes'] = array(
-    'name' => 'export own nodes',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node_export',
   );
 
   // Exported permission: 'generate features'.
@@ -1078,16 +954,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'pathauto',
   );
 
-  // Exported permission: 'post comments'.
-  $permissions['post comments'] = array(
-    'name' => 'post comments',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'comment',
-  );
-
   // Exported permission: 'regenerate derivatives for an object'.
   $permissions['regenerate derivatives for an object'] = array(
     'name' => 'regenerate derivatives for an object',
@@ -1137,16 +1003,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'islandora',
   );
 
-  // Exported permission: 'search content'.
-  $permissions['search content'] = array(
-    'name' => 'search content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
-    ),
-    'module' => 'search',
-  );
-
   // Exported permission: 'search islandora solr'.
   $permissions['search islandora solr'] = array(
     'name' => 'search islandora solr',
@@ -1168,16 +1024,6 @@ function ldl_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: 'skip comment approval'.
-  $permissions['skip comment approval'] = array(
-    'name' => 'skip comment approval',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'comment',
-  );
-
   // Exported permission: 'switch shortcut sets'.
   $permissions['switch shortcut sets'] = array(
     'name' => 'switch shortcut sets',
@@ -1185,25 +1031,6 @@ function ldl_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'shortcut',
-  );
-
-  // Exported permission: 'use PHP to import nodes'.
-  $permissions['use PHP to import nodes'] = array(
-    'name' => 'use PHP to import nodes',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node_export',
-  );
-
-  // Exported permission: 'use advanced search'.
-  $permissions['use advanced search'] = array(
-    'name' => 'use advanced search',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
-    ),
-    'module' => 'search',
   );
 
   // Exported permission: 'use ctools import'.
